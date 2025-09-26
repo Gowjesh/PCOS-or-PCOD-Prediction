@@ -13,7 +13,7 @@ The system includes:
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 PCOS-Classifier/
@@ -30,7 +30,7 @@ PCOS-Classifier/
 
 ---
 
-## ⚙️ Requirements
+## Requirements
 
 Install the required dependencies before running the script:
 
@@ -40,7 +40,7 @@ pip install tensorflow numpy matplotlib pillow
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 ### 1. Prepare Dataset
 
@@ -84,7 +84,7 @@ image2.jpg → PCOS
 
 ---
 
-## 🧠 Model Architecture
+## Model Architecture
 
 * **Conv2D(32, 3x3) + MaxPooling**
 * **Conv2D(64, 3x3) + MaxPooling**
@@ -98,19 +98,19 @@ Metrics: **Accuracy**
 
 ---
 
-## 📊 Results
+## Results
 
 * Training & Validation Accuracy plotted per epoch
 * Training & Validation Loss plotted per epoch
 
 Example graphs:
 
-* 📈 Accuracy improves steadily across epochs
-* 📉 Loss decreases with validation stability
+* Accuracy improves steadily across epochs
+* Loss decreases with validation stability
 
 ---
 
-## 🔮 Future Improvements
+## Future Improvements
 
 * Use **transfer learning** (e.g., VGG16, ResNet) for higher accuracy
 * Deploy model as a **Flask/Django web app**
