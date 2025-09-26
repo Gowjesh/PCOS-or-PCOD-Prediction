@@ -1,6 +1,6 @@
 # PCOS-or-PCOD-Prediction
 
-# 🩺 PCOS Classifier (CNN-based)
+# PCOS Classifier (CNN-based)
 
 This project is a **Convolutional Neural Network (CNN)-based classifier** to detect **Polycystic Ovary Syndrome (PCOS)** from ultrasound images. The model is trained on a dataset containing two categories: **Normal** and **PCOS**.
 
